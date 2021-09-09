@@ -1,0 +1,9 @@
+[staging_servers]
+#info for alias for hosts
+linnode ansible_host=192.168.0.5
+
+#publish variables for group staging_server
+[staging_servers:vars]
+ansible_user=student
+ansible_ssh_private_key_file=/home/tim/.ssh/id_rsa
+
